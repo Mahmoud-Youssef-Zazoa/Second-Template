@@ -131,7 +131,6 @@ header nav ul {
     header nav  ul {
         display: none;
     }
-@media (max-width: 768px) {
     header nav .toggle-menu:hover + ul {
         display: flex;
         flex-direction: column;
@@ -145,7 +144,6 @@ header nav ul {
         padding: 15px;
     }
 
-}
 }
 header nav ul li a {
     display: block;
@@ -277,7 +275,7 @@ header nav .form i {
 .srv-box i {
     margin-right: 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .services .srv-box {
         display: flex;
         flex-direction: column;
@@ -324,7 +322,7 @@ header nav .form i {
     z-index: 2;
     flex: 1;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .Design {
         display: flex;
         height: min-content;
@@ -501,7 +499,6 @@ a.link {
     padding-bottom: var(--main-padding);
     position: relative;
     background-image: url(/img/stats.png);
-    width: 100%;
     background-size: cover;
 }
 .stats::before  {
@@ -543,6 +540,8 @@ a.link {
     
 }
 .stats .container .box i {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: black;
     padding: 10px;
@@ -580,7 +579,6 @@ a.link {
 }
 .info .container .testimonials p,
 .info .container .skills p {
-    max-width: 100%;
     color: var(--font-color);
     line-height: 2;
     text-align: center;
@@ -768,6 +766,7 @@ q::after {
 .plans .plan .foot a {
     padding: 20px;
     text-decoration: none;
+    width: fit-content;
     border: 1px solid var(--main-color);
 }
 .pricing .contact-text {
