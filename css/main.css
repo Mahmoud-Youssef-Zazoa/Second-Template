@@ -550,6 +550,9 @@ a.link {
     margin: 20px auto;
     font-weight: bold;
 }
+.stats .container .box p {
+    font-size: 14px;
+  }
 .info {
     position: relative;
     padding-top: var(--main-padding);
