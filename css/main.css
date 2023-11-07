@@ -384,6 +384,13 @@ header nav .form i {
     position: relative;
     overflow: hidden;
 }
+.portfolio .img-container .box img {
+    max-width: 100%;
+    transition: 0.3s;
+}
+.portfolio .img-container .box:hover img {
+    transform: rotate(3deg) scale(1.1);
+}
 @media (min-width: 768px) {
     .portfolio .img-container .box {
         flex-basis: 50%;
@@ -393,13 +400,6 @@ header nav .form i {
     .portfolio .img-container .box {
         flex-basis: 25%;
     }
-}
-.portfolio .img-container .box img {
-    max-width: 100%;
-    transition: 0.3s;
-}
-.portfolio .img-container .box:hover img {
-    transform: rotate(3deg) scale(1.1);
 }
 .portfolio .img-container .box .caption {
     position: absolute;
